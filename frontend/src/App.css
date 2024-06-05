@@ -1,3 +1,7 @@
+.container h2 {
+  margin-top: 3rem !important;
+}
+
 .App {
   text-align: center;
 }
@@ -5,16 +9,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-custom {
+  background-color: whitesmoke;
 }
 
 .App-header {
-  background-color: wheat;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +29,24 @@
 
 .App-link {
   color: black;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: rgb(109, 142, 10);
+}
+
+.App-header-link {
+  color: rgb(109, 142, 10);
+  text-decoration: none;
+}
+
+.App-header-link:hover {
+  color: black;
+}
+
+.nav-link:hover {
+  color: green !important;
 }
 
 @keyframes App-logo-spin {

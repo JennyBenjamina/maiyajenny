@@ -1,22 +1,17 @@
-import logo from "./logo.svg";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import "./index.css";
+import About from "./pages/About";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Coming Soon...</p>
-        <a
-          className="App-link"
-          href="https://jennylee.golf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jenny Lee Web Design and Develop
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ComingSoon />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
