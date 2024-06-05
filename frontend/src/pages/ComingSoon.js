@@ -10,14 +10,8 @@ function ComingSoon() {
         </Link>
         <img src={logo} className="App-logo" alt="logo" />
 
-        <a
-          className="App-link"
-          href="https://jennylee.golf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jenny Lee Web Design and Develop
-        </a>
+        <p>Maiya & Jenny</p>
+        <p>Get Noticed</p>
       </header>
     </div>
   );

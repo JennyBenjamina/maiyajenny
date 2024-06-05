@@ -1,3 +1,16 @@
+:root {
+  --primary-color: #967f71;
+  --secondary-color: #f4f4f4;
+  --tertiary-color: #f4f4f4;
+  --quaternary-color: #f4f4f4;
+  --quinary-color: #f4f4f4;
+  --senary-color: #f4f4f4;
+  --septenary-color: #f4f4f4;
+  --octonary-color: #f4f4f4;
+  --nonary-color: #f4f4f4;
+  --denary-color: #f4f4f4;
+}
+
 .container h2 {
   margin-top: 3rem !important;
 }
@@ -24,20 +37,20 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(109, 142, 10);
+  color: var(--primary-color);
 }
 
-.App-link {
+/* .App-link {
   color: black;
   text-decoration: none;
 }
 
 .App-link:hover {
   color: rgb(109, 142, 10);
-}
+} */
 
 .App-header-link {
-  color: rgb(109, 142, 10);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -46,7 +59,7 @@
 }
 
 .nav-link:hover {
-  color: green !important;
+  color: var(--primary-color) !important;
 }
 
 @keyframes App-logo-spin {
